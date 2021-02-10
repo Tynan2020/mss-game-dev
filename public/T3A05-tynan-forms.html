@@ -26,15 +26,21 @@ alert('Help Me!')
 }"><br>
 
 <script>
-var timeleft = 10;
-var downloadTimer = setInterval(function(){
-  if(timeleft <= 0){
-    clearInterval(downloadTimer);
-  }
-  document.getElementById("progressBar").value = 10 - timeleft;
-  timeleft -= 1;
-}, 1000);
-
-   <progress value="0" max="10" id="progressBar"></progress>
+var timeLeft = 30;
+    var elem = document.getElementById('some_div');
+    
+    var timerId = setInterval(countdown, 1000);
+    
+    function countdown() {
+      if (timeLeft == -1) {
+        clearTimeout(timerId);
+        doSomething();
+      } else {
+        elem.innerHTML = timeLeft + ' seconds remaining';
+        timeLeft--;
+      }
+    }
+<div id="some_div">
+</div>
 </script> 
 
