@@ -1,0 +1,361 @@
+<h1 align=center>T3A12-Tynan-Decisions.html</h1>
+
+
+<pre>
+|| means OR
+&& means AND
+! means NOT
+</pre>
+
+<input id="myText01" type=text value=3 ><br><br> 
+
+<input type=button value="Show X" onClick="{
+x = document.getElementById('myText01').value
+myTemp = '.......'
+if (x >= 2){myTemp = 'something'}
+document.getElementById('mySpan01').innerHTML = myTemp
+
+}"><br><br>
+
+Wanna Play?<br>
+<button onClick="myFunction1()">Yes</button>
+<button onClick="myFunction2()">No</button><br><br>
+
+<!-- -->
+<span id="mySpan01" style="display:none"></span> <!--3 Guards-->
+<span id="mySpan02" style="display:none"></span> <!--Are You Sure?-->
+<span id="mySpan03" style="display:none"></span> <!--Damn.-->
+<span id="mySpan04" style="display:none"></span> <!--Are you 100% sure?-->
+<span id="mySpan05" style="display:none"></span> <!--Then press yes? -->
+<span id="mySpan06" style="display:none"></span>
+
+<button id="bgo" onClick="myFunction3()" style="display:none">Go with them</button>
+<button id="bleave" onClick="myFunction4()" style="display:none">Refuse to leave</button>
+
+<button id="byes" onClick="myFunction5()" style="display:none">Yes</button>
+<button id="bno" onClick="myFunction6()" style="display:none">No</button>
+
+<button id="byea" onClick="myFunction7()" style="display:none">Yea</button>
+<button id="bnah" onClick="myFunction8()" style="display:none">Nah</button>
+
+<script>                                                                      //F1              
+function myFunction1() {
+document.getElementById("mySpan01").innerHTML = 'You wake up to see 3 guards standing outside your prison cell, what do you do?'
+ 
+  var x = document.getElementById("mySpan01");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+document.getElementById("mySpan02").innerHTML = 'Are You Sure?'
+ 
+  var x = document.getElementById("mySpan02");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+document.getElementById("mySpan04").innerHTML = 'Are You 100% Sure!?'
+ 
+  var x = document.getElementById("mySpan04");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+document.getElementById("mySpan03").innerHTML = 'Damn.'
+ 
+ var x = document.getElementById("mySpan03");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+document.getElementById("mySpan05").innerHTML = '^^^ Then click yes?'
+ 
+  var x = document.getElementById("mySpan05");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("byea");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("bnah");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("bgo");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  var x = document.getElementById("bleave");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+ var x = document.getElementById("byes");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("bno");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<script>                                                                      //F2  
+function myFunction2() {
+document.getElementById("mySpan02").innerHTML = 'Are You Sure?'
+ 
+  var x = document.getElementById("mySpan02");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+document.getElementById("mySpan01").innerHTML = 'You wake up to see 3 guards standing outside your prison cell, what do you do?'
+ 
+  var x = document.getElementById("mySpan01");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+document.getElementById("mySpan03").innerHTML = 'Damn.'
+ 
+  var x = document.getElementById("mySpan03");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+document.getElementById("mySpan04").innerHTML = 'Are You 100% Sure!?'
+ 
+  var x = document.getElementById("mySpan04");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("byes");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("bno");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  var x = document.getElementById("bgo");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+  var x = document.getElementById("bleave");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+  var x = document.getElementById("byea");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("bnah");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+ 
+<script>                                                                      //F5
+function myFunction5() {                                            
+document.getElementById("mySpan04").innerHTML = 'Are You 100% Sure!?'
+ 
+  var x = document.getElementById("mySpan04");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+document.getElementById("mySpan02").innerHTML = 'Are You Sure?'
+ 
+  var x = document.getElementById("mySpan02");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("byea");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("bnah");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  var x = document.getElementById("byes");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("bno");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<script>                                                                    //F6
+function myFunction6() {
+document.getElementById("mySpan05").innerHTML = '^^^ Then click yes?'
+ 
+  var x = document.getElementById("mySpan05");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+document.getElementById("mySpan02").innerHTML = 'Are You Sure?'
+ 
+  var x = document.getElementById("mySpan02");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+var x = document.getElementById("byes");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("bno");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<script>                                                                    //F7
+function myFunction7() {
+document.getElementById("mySpan03").innerHTML = 'Damn.'
+ 
+  var x = document.getElementById("mySpan03");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+document.getElementById("mySpan04").innerHTML = 'Are You 100% Sure!?'
+ 
+  var x = document.getElementById("mySpan04");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+var x = document.getElementById("byea");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("bnah");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<script>                                                                    //F8
+function myFunction8() {
+document.getElementById("mySpan06").innerHTML = 'Took you this long to decide?'
+ 
+  var x = document.getElementById("mySpan06");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+document.getElementById("mySpan04").innerHTML = 'Are You 100% Sure!?'
+ 
+  var x = document.getElementById("mySpan04");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+var x = document.getElementById("byea");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+
+  var x = document.getElementById("bnah");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
