@@ -1,0 +1,21 @@
+<h1 align=center>T3A14-Tynan-For-Loop.html</h1>
+
+<span id="mySpan01" style="display:none">sup</span>
+
+Store this input variable into x:
+<input id="myText01" type=text value=20 ><br><br>
+
+<input type=button value="For Loop" onclick="{
+ let myTemp='';
+ for(let myLoop01 = 0; myLoop01 < 30; myLoop01++){
+  myTemp += 'Loop Number: ' + myLoop01 + '<br>';
+ }
+ document.getElementById('mySpan01').innerHTML = myTemp
+
+ var x = document.getElementById("mySpan01");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}"><br><br>
