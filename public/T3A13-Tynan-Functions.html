@@ -4,10 +4,13 @@
 function myBasicFun(){
   document.getElementById('mySpan01').innerHTML = "wow"
 }
-function myAdvancedFun(x,y){
-  var x = document.getElementById('myText01');
-  var y = document.getElementById('myText02');
-  return x*y;
+function myAdvancedFun(){
+  var a = parseInt(document.getElementById('myText01').value);
+  var b = parseInt(document.getElementById('myText02').value);
+  return a * b;
+}
+function myAdvancedFun2(){
+document.getElementById('mySpan01').innerHTML = myAdvancedFun()
 }
 </script>
 
@@ -17,6 +20,6 @@ function myAdvancedFun(x,y){
 myBasicFun()
 }"><br><br>
 <input type=button value="Advanced" onclick="{
-  document.getElementById('mySpan01').innerHTML = myAdvancedFun(x,y)
+  myAdvancedFun2()
 }"><br><br>
 <span id="mySpan01">...</span><br><br>
