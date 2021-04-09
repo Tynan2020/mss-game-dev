@@ -1,16 +1,16 @@
-Tynan
+<h1 align=center>Resources</h1>
 
 Github Website:
-<a href="https://tynan2020.github.io/mss-game-dev/public/index.html"></a>
+<a href="https://tynan2020.github.io/mss-game-dev/public/index.html">Click Here</a>
 
 Github Repository:
-<a href="https://github.com/Tynan2020/mss-game-dev"></a>
+<a href="https://github.com/Tynan2020/mss-game-dev">Click Here</a>
 
 w3school:
-<a href="https://www.w3schools.com/"></a>
+<a href="https://www.w3schools.com/">Click Here</a>
 
 Mr. Ellis Javascript site: 
-<a href="https://github.com/hpssjellis/pgb-mobile-app-design"></a>
+<a href="https://github.com/hpssjellis/pgb-mobile-app-design">Click Here</a>
 
 ellis machine learning site
-<a href="https://www.rocksetta.com/tensorflowjs/"></a>
+<a href="https://www.rocksetta.com/tensorflowjs/">Click Here</a>
