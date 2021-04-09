@@ -1,16 +1,16 @@
 Tynan
 
 Github Website:
-https://tynan2020.github.io/mss-game-dev/public/index.html
+<a href="https://tynan2020.github.io/mss-game-dev/public/index.html"></a>
 
 Github Repository:
-https://github.com/Tynan2020/mss-game-dev
+<a href="https://github.com/Tynan2020/mss-game-dev"></a>
 
 w3school:
-https://www.w3schools.com/
+<a href="https://www.w3schools.com/"></a>
 
 Mr. Ellis Javascript site: 
-https://github.com/hpssjellis/pgb-mobile-app-design
+<a href="https://github.com/hpssjellis/pgb-mobile-app-design"></a>
 
 ellis machine learning site
-https://www.rocksetta.com/tensorflowjs/ 
+<a href="https://www.rocksetta.com/tensorflowjs/"></a>
