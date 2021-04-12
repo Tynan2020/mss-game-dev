@@ -1,0 +1,45 @@
+<h1 align=center>T3A09-Tynan-Events</h1>
+
+<span id="mySpan01" style="display:none"></span>
+
+1.<button onClick="myFunction1()">This is a button (click it)</button>
+
+<script>
+function myFunction1() {
+document.getElementById("mySpan01").innerHTML = 'Yay, you can click a button...'
+
+  var x = document.getElementById("mySpan01");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<p>2.Select My Grade (uses onchange):</p>
+<select id="mySelect" onchange="myFunction()">
+  <option value="C">C</option>
+  <option value="B">B</option>
+  <option value="B+">B+</option>
+  <option value="A">A</option>
+</select>
+
+<p id="demo"></p>
+
+<br><br><script>
+function myFunction() {
+  var x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "You selected: " + x;
+}
+</script>
+
+<script>
+function myFunction() {
+  alert("This is a onload event");
+}
+</script>
+
+<body onload="myFunction()">
+<h1>3. This is (onload)</h1>
+
