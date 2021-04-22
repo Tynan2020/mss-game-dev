@@ -30,7 +30,7 @@ function myCheckAll1(){
     location = 'https://google.ca'
  }
 
- if(myHitOther('mySpan01', 'mySpan03')){
+ if(myHitOther('mySpan01', 'mySpan02')){
    document.getElementById('mySpan01').style.left = 
       parseInt(document.getElementById('mySpan01').style.left) - document.myXpixels 
  }
@@ -38,12 +38,12 @@ function myCheckAll1(){
 
 function myCheckAll2(){
   if(myHitOther('mySpan01', 'mySpan08')){
-    document.getElementById('mySpan08').style.left = '-400px'
+    document.getElementById('mySpan08').style.top = '-400px'
     alert('You Win!')
     location = 'https://google.ca'
   }
 
-if(myHitOther('mySpan01', 'mySpan02')){
+if(myHitOther('mySpan01', 'mySpan03')){
    document.getElementById('mySpan01').style.top = 
       parseInt(document.getElementById('mySpan01').style.top) - document.myYpixels 
  }
@@ -94,37 +94,38 @@ if(myHitOther('mySpan01', 'mySpan12')){
 
 </script>
 
-
 <body  onKeyDown="{
      let myAlphaKey = event.key
-      
+
  if (myAlphaKey.toLowerCase() == 'arrowright') {
          document.getElementById('mySpan01').style.left = parseInt(document.getElementById('mySpan01').style.left) + 10
          myCheckAll1()
+       
      }
 
-if  (myAlphaKey.toLowerCase() == 'arrowdown') {
+ if  (myAlphaKey.toLowerCase() == 'arrowdown') {
          document.getElementById('mySpan01').style.top = parseInt(document.getElementById('mySpan01').style.top) + 10
          myCheckAll2()
      }
 }">
 
+
 <h1 align=center>T4A02-Tynan-maze.html</h1>
 
-<span id="mySpan01" title="span1Title" style="position:absolute; left:0; top:150; width:45; height:30"><img src="Maze Runner.png" style="width:50; height:50">
+<span id="mySpan01" title="S1" style="position:absolute; left:0; top:150; width:45; height:30"><img src="Maze Runner.png" style="width:50; height:50">
     </span><br>
-<span id="mySpan02" style="position:absolute; left:200; top:150; width:45; height:30"><img src="Maze Wall H.png" style="width:100; height:50"> 
+<span id="mySpan02" title="S2" style="position:absolute; left:200; top:150; width:45; height:30"><img src="Maze Wall H.png" style="width:100; height:50"> 
     </span><br>
-<span id="mySpan03" style="position:absolute; left:200; top:100; width:100; height:50"><img src="Maze Wall H.png" style="width:100; height:50"></span><br>
-<span id="mySpan04" style="position:absolute; left:100; top:100; width:100; height:50"><img src="Maze Wall H.png" style="width:100; height:50"></span><br>
-<span id="mySpan05" style="position:absolute; left:100; top:200; width:45; height:50"><img src="Maze Wall S.png" style="width:50; height:50"></span><br>
-<span id="mySpan06" style="position:absolute; left:100; top:250; width:100; height:50"><img src="Maze Wall H.png" style="width:100; height:50"></span><br>
-<span id="mySpan07" style="position:absolute; left:200; top:250; width:100; height:50"><img src="Maze Wall H.png" style="width:100; height:50"></span><br>
-<span id="mySpan08" style="position:absolute; left:300; top:200; width:100; height:50"><img src="Maze Flag.png" style="width:50; height:50"></span><br>
-<span id="mySpan09" style="position:absolute; left:50; top:100; width:45; height:50"><img src="Maze Wall S.png" style="width:50; height:50"></span><br>
-<span id="mySpan10" style="position:absolute; left:50; top:200; width:45; height:50"><img src="Maze Wall S.png" style="width:50; height:50"></span><br>
-<span id="mySpan11" style="position:absolute; left:0; top:100; width:45; height:50"><img src="Maze Wall S.png" style="width:50; height:50"></span><br>
-<span id="mySpan12" style="position:absolute; left:0; top:200; width:45; height:50"><img src="Maze Wall S.png" style="width:50; height:50"></span><br>
+<span id="mySpan03" title="S3" style="position:absolute; left:200; top:100; width:100; height:50"><img src="Maze Wall H.png" style="width:100; height:50"></span><br>
+<span id="mySpan04" title="S4" style="position:absolute; left:100; top:100; width:100; height:50"><img src="Maze Wall H.png" style="width:100; height:50"></span><br>
+<span id="mySpan05" title="S5" style="position:absolute; left:100; top:200; width:45; height:50"><img src="Maze Wall S.png" style="width:50; height:50"></span><br>
+<span id="mySpan06" title="S6" style="position:absolute; left:100; top:250; width:100; height:50"><img src="Maze Wall H.png" style="width:100; height:50"></span><br>
+<span id="mySpan07" title="S7" style="position:absolute; left:200; top:250; width:100; height:50"><img src="Maze Wall H.png" style="width:100; height:50"></span><br>
+<span id="mySpan08" title="S8" style="position:absolute; left:300; top:200; width:100; height:50"><img src="Maze Flag.png" style="width:50; height:50"></span><br>
+<span id="mySpan09" title="S9" style="position:absolute; left:50; top:100; width:45; height:50"><img src="Maze Wall S.png" style="width:50; height:50"></span><br>
+<span id="mySpan10" title="S10" style="position:absolute; left:50; top:200; width:45; height:50"><img src="Maze Wall S.png" style="width:50; height:50"></span><br>
+<span id="mySpan11" title="S11" style="position:absolute; left:0; top:100; width:45; height:50"><img src="Maze Wall S.png" style="width:50; height:50"></span><br>
+<span id="mySpan12" title="S12" style="position:absolute; left:0; top:200; width:45; height:50"><img src="Maze Wall S.png" style="width:50; height:50"></span><br>
 
 
 
